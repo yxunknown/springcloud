@@ -8,14 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="ek-server" />
+        <module name="emr-invoker" />
         <module name="emr-provider" />
+        <module name="hystrix-dashboard" />
+        <module name="ribbon-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
       <module name="ek-server" target="1.8" />
+      <module name="emr-invoker" target="1.8" />
       <module name="emr-provider" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
       <module name="SpringCloud" target="1.5" />
     </bytecodeTargetLevel>
   </component>
